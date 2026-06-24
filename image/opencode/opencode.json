@@ -1,0 +1,17 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "ida_pro_mcp": {
+      "type": "local",
+      "command": [
+        "/usr/local/bin/idalib-pool-opencode"
+      ],
+      "enabled": true,
+      "timeout": 120000,
+      "environment": {
+        "IDADIR": "/opt/ida-pro-9.1",
+        "QT_QPA_PLATFORM": "offscreen"
+      }
+    }
+  }
+}

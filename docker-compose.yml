@@ -1,0 +1,10 @@
+services:
+  opencode-ida:
+    build: .
+    image: opencode-ida-mcp:latest
+    container_name: opencode-ida-mcp
+    ports:
+      - "4096:4096"
+    volumes:
+      - ./workspace:/workspace
+    restart: unless-stopped

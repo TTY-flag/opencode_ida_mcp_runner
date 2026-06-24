@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Version=0.9.4
+Name=Uninstall IDA Professional 9.1
+Comment=Uninstall
+Icon=
+Exec=/home/pwn20tty/ida-pro-9.1/uninstall
+Terminal=false
+Path=/home/pwn20tty/ida-pro-9.1
