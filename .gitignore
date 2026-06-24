@@ -1,0 +1,6 @@
+# IDA database/cache files generated while analyzing binaries in workspace.
+/workspace/**/*.id[0-3]
+/workspace/**/*.idb
+/workspace/**/*.i64
+/workspace/**/*.nam
+/workspace/**/*.til

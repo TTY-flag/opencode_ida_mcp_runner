@@ -8,4 +8,4 @@ export IDADIR="$IDA_DIR"
 export LD_LIBRARY_PATH="$IDA_DIR:$IDA_DIR/plugins:${LD_LIBRARY_PATH:-}"
 export QT_QPA_PLATFORM="${QT_QPA_PLATFORM:-offscreen}"
 
-exec "$MCP_HOME/.venv/bin/idalib-pool" --max-instances "${IDA_MCP_MAX_INSTANCES:-2}" "$@"
+exec "$MCP_HOME/.venv/bin/idalib-pool" --max-instances "${IDA_MCP_MAX_INSTANCES:-5}" "$@"
