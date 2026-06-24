@@ -2,7 +2,6 @@
 
 这个工程用于构建一个本地 opencode Web 容器，镜像基于 `smanx/opencode:latest`，并预装 opencode 与 `winmin/ida-headless-mcp` 运行环境。
 
-> GitHub 仓库不会包含 IDA Pro 本体和 `ida.reg` 授权状态文件。克隆后需要把自己的 IDA Pro 9.1 目录与 IDA 用户配置放到指定位置，然后即可构建运行。
 
 ## 目录说明
 
