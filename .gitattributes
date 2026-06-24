@@ -1,0 +1,4 @@
+# Keep scripts copied into Linux Docker images executable after Windows checkout.
+.gitattributes text eol=lf
+*.sh text eol=lf
+image/bin/idalib-pool-opencode text eol=lf
