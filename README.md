@@ -30,6 +30,18 @@ http://127.0.0.1:4096/L3dvcmtzcGFjZQ/session
 http://127.0.0.1:8080/L3dvcmtzcGFjZQ/session
 ```
 
+## Demo 提示词
+
+打开 Web 页面后，可以直接输入：
+
+```text
+反编译当前文件夹下的ubus文件，输出main函数的内容
+```
+
+运行结果示例：
+
+![运行结果](pics/1.png)
+
 如果 Docker 在你的系统上需要额外权限，按本机环境处理即可。
 
 ## 目录结构
